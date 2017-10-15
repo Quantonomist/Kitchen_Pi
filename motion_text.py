@@ -1,3 +1,5 @@
+print ('Test')
+
 import time
 import RPi.GPIO as io # Motion Sensor
 io.setmode(io.BCM)
@@ -115,3 +117,5 @@ while True:
     else:
 	print ('No Alarm')
     time.sleep(5)
+    
+    
